@@ -1,10 +1,10 @@
 name: Build and publish
 
 on: 
-  push:
-    branches:
-    - "master" # Running this workflow only for master branch
-
+  # push:
+  #   branches:
+  #   - "master" # Running this workflow only for master branch
+  workflow_dispatch:
 jobs:
   build-and-publish-latest:
     runs-on: ubuntu-latest
