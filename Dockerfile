@@ -1,4 +1,4 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.18
+FROM ghcr.io/linuxserver/baseimage-alpine:3.21
 
 RUN apk add -U --update --no-cache --virtual=build-dependencies \
     	build-base \
